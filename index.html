@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/87606e3646.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/en-style.css">
 
@@ -231,25 +231,25 @@
 
                 <div class="col-sm-6 col-12">
                     <h2 class="text-left ">Education</h2>
-                        <div class="card">
-                            <h3>Art & Multimedia From <span>Oxford Unversity</span></h3>
+                        <div class="card exp-card">
+                            <h3>Art & Multimedia From <span class="italic">Oxford Unversity</span></h3>
                             <h6>2005-2008</h6>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, beatae. Perspiciatis sed, dicta numquam asperiores saepe veniam hic tenetur totam.</p>
                         </div>
-                        <div class="card">
-                            <h3>Art & Multimedia From <span>Oxford Unversity</span></h3>
+                        <div class="card exp-card">
+                            <h3>Art & Multimedia From <span class="italic">Oxford Unversity</span></h3>
                             <h6>2005-2008</h6>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, beatae. Perspiciatis sed, dicta numquam asperiores saepe veniam hic tenetur totam.</p>
                         </div>
-                        <div class="card">
-                            <h3>Art & Multimedia From <span>Oxford Unversity</span></h3>
+                        <div class="card exp-card">
+                            <h3>Art & Multimedia From <span class="italic">Oxford Unversity</span></h3>
                             <h6>2005-2008</h6>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, beatae. Perspiciatis sed, dicta numquam asperiores saepe veniam hic tenetur totam.</p>
                         </div>
                     </div>
                 <div class="col-sm-6 col-12">
                     <h2 class="text-left ">Work Experience</h2>
-                    <div class="card">
+                    <div class="card exp-card">
                         <h3>UI/UX Designer <span>IronSketch</span></h3>
                         <h6>2005-2008</h6>
                         <p>Responsibility</p>
@@ -259,7 +259,7 @@
                         </ul>
                     </div>
                     
-                    <div class="card">
+                    <div class="card exp-card">
                         <h3>Art & Multimedia From <span>Oxford University</span></h3>
                         <h6>2005-2008</h6>
                         <p>Responsibility</p>
@@ -269,7 +269,7 @@
                         </ul>
                     </div>
                     
-                    <div class="card">
+                    <div class="card exp-card">
                         <h3>Art & Multimedia From <span>Oxford University</span></h3>
                         <h6>2005-2008</h6>
                         <p>Responsibility</p>
@@ -288,18 +288,24 @@
 
                 <h2 class="row mb-5 justify-content-center" >Recent Portfolio</h2>
 
-                <div class="row justify-content-center ">
-                    <card class="col-sm-3 col-12" >
-                        <a href=""><img src="./assets/images/g2.png" alt=""></a>
-                    </card>
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-12 w-auto">
+                        <div class="card portfolio-card my-4">
+                            <a href=""><img src="./assets/images/g2.png" alt="" style="width: auto;"></a>
+                        </div>
+                    </div>
                     
-                    <card class="col-sm-3 col-12" >
-                        <a href=""><img src="./assets/images/g9.png" alt=""></a>
-                    </card>
+                    <div class="col-sm-4 col-12 w-auto m-auto" >
+                        <div class="card portfolio-card my-4">
+                            <a href=""><img src="./assets/images/g9.png" alt=""></a>
+                        </div>
+                    </div>
                     
-                    <card class="col-sm-3 col-12" >
-                        <a href=""><img src="./assets/images/g9.png" alt=""></a>
-                    </card>
+                    <div class="col-sm-4 col-12 w-auto" >
+                        <div class="card portfolio-card my-4">
+                            <a href=""><img src="./assets/images/g9.png" alt=""></a>
+                        </div>
+                    </div>
                     
     
                 
@@ -308,16 +314,16 @@
             </div>
 
             <div class="row pricing">
-                <h2 class="row mb-5 justify-content-center" >Recent Portfolio</h2>
+                <h2 class="row mb-5 justify-content-center" >Pricing Table</h2>
                 
                 <div class="col-sm-4 mb-3 mb-sm-0">
-                    <div class="card text-center">
+                    <div class="card text-center price-card">
                         <div class="card-body">
-                        <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                        <i class="fa-sharp fa-solid fa-calendar-days my-5 fa-2xl" style="color: #23d4b8;"></i>
                             <h5 class="card-title">Full-time work</h5>
                             <p class="card-text">I am available for full time</p>
-                            <h3>$1500</h3>
-                            <ul class="description" style="list-style: none;">
+                            <h3 style="color: #23d4b8;font-weight:900;">$1500</h3>
+                            <ul class="description" style="list-style: none; padding: 0;">
                                 <li>Web Development</li>
                                 <li>Advertising</li>
                                 <li>Game Development</li>
@@ -328,13 +334,13 @@
                     </div>
                 </div>
                 <div class="col-sm-4 mb-3 mb-sm-0">
-                    <div class="card text-center">
+                    <div class="card text-center price-card">
                         <div class="card-body">
-                        <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                        <i class="fa-sharp fa-solid fa-file my-5 fa-2xl"  style="color: #23d4b8"></i>
                             <h5 class="card-title">Full-time work</h5>
                             <p class="card-text">I am available for full time</p>
-                            <h3>$1500</h3>
-                            <ul class="description" style="list-style: none;">
+                            <h3 style="color: #23d4b8;font-weight:900">$500</h3>
+                            <ul class="description" style="list-style: none; padding: 0;">
                                 <li>Web Development</li>
                                 <li>Advertising</li>
                                 <li>Game Development</li>
@@ -345,13 +351,13 @@
                     </div>
                 </div>
                 <div class="col-sm-4 mb-3 mb-sm-0">
-                    <div class="card text-center">
+                    <div class="card text-center price-card">
                         <div class="card-body">
-                        <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                        <i class="fa-sharp fa-solid fa-hourglass-half my-5 fa-2xl" style="color: #23d4b8"></i>
                             <h5 class="card-title">Full-time work</h5>
                             <p class="card-text">I am available for full time</p>
-                            <h3>$1500</h3>
-                            <ul class="description" style="list-style: none;">
+                            <h3 style="color: #23d4b8;font-weight:900;">$50</h3>
+                            <ul class="description" style="list-style: none; padding: 0;">
                                 <li>Web Development</li>
                                 <li>Advertising</li>
                                 <li>Game Development</li>
@@ -367,7 +373,7 @@
                 <h2 class="row mb-5 justify-content-center" >Featured Posts</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                      <div class="card">
+                      <div class="card h-100 feat-card">
                         <img src="./assets/images/b-3.png" class="card-img-top" alt="traffic jams">
                             <div class="card-body">
                             <h5 class="card-title" style="font-size: 24px;font-weight: 600;">A life without the daily traffic jams</h5>
@@ -378,7 +384,7 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card">
+                      <div class="card h-100 feat-card">
                         <img src="./assets/images/b-2.png" class="card-img-top" alt="proportion">
                             <div class="card-body">
                             <h5 class="card-title" style="font-size: 24px;font-weight: 600;">Proportion are what's really needed</h5>
@@ -389,7 +395,7 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card">
+                      <div class="card h-100 feat-card">
                         <img src="./assets/images/b-1.png" class="card-img-top" alt="paper work">
                             <div class="card-body">
                             <h5 class="card-title" style="font-size: 24px;font-weight: 600;">Mounts of paper work to remember the way</h5>
@@ -404,52 +410,95 @@
                 
                 
             </div>
-            <div class="row client">
-                <h2 class="row mb-5 justify-content-center" >Client Reviews</h2>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                  
 
-                    <div class="col">
-                      <div class="card text-center">
-                            <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
-                            <h5 class="mt-3"> John Mike</h5>
-                            <h6>CEO, Author.Inc</h6>
+
+            <div class="row client d-flex justify-content-center">
+                <h2 class="text-center mb-5" >Client Reviews</h2>
+                <div class="col-12">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active bg-success"></li>
+                        <li data-target="#carousel" data-slide-to="1" class="bg-success"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-sm-4 mb-4">
+                                <div class="card m-3 client-card">
+                                    <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
+                                    <div class="card-body text-center">
+                                    <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
+                                    <h5 class="mt-3"> John Mike</h5>
+                                    <h6>CEO, Author.Inc</h6>
+                                </div>
                             </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card text-center">
-                            <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
-                            <h5 class="mt-3"> John Mike</h5>
-                            <h6>CEO, Author.Inc</h6>
                             </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card text-center">
-                            <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
-                            <h5 class="mt-3"> John Mike</h5>
-                            <h6>CEO, Author.Inc</h6>
+                            <div class="col-12 col-sm-4 mb-4">
+                                <div class="card m-3 client-card">
+                                    <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
+                                    <div class="card-body text-center">
+                                    <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
+                                    <h5 class="mt-3"> John Mike</h5>
+                                    <h6>CEO, Author.Inc</h6>
+                                </div>
                             </div>
-                      </div>
+                            </div>
+                            <div class="col-12 col-sm-4 mb-4">
+                                <div class="card m-3 client-card">
+                                    <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
+                                    <div class="card-body text-center">
+                                    <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
+                                    <h5 class="mt-3"> John Mike</h5>
+                                    <h6>CEO, Author.Inc</h6>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-sm-4 mb-4">
+                                <div class="card m-3 client-card">
+                                    <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
+                                    <div class="card-body text-center">
+                                    <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
+                                    <h5 class="mt-3"> John Mike</h5>
+                                    <h6>CEO, Author.Inc</h6>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-12 col-sm-4 mb-4">
+                                <div class="card m-3 client-card">
+                                    <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
+                                    <div class="card-body text-center">
+                                    <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
+                                    <h5 class="mt-3"> John Mike</h5>
+                                    <h6>CEO, Author.Inc</h6>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-12 col-sm-4 mb-4">
+                                <div class="card m-3 client-card">
+                                    <img src="./assets/images/c-1.png" class="card-img-top my-4 align-self-center" alt="traffic jams" style="height: 100px;width: 100px;border: 4px solid #23d4b8;border-radius: 50px;" >
+                                    <div class="card-body text-center">
+                                    <p class="card-text" style="font-size: 14px;">"Absolute wonderful! I am completely blown away. The very best. I was amazed at the quality"</p>
+                                    <h5 class="mt-3"> John Mike</h5>
+                                    <h6>CEO, Author.Inc</h6>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                    
-                    
-                  </div>
-                
-                
+                    </div>
+      </div>
             </div>
+
             <div class="row contact">
                 <h2 class="row mb-5 justify-content-center" >Contact Me</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                      <div class="card text-center">
+                      <div class="card text-center contact-card">
                         <i class="fa-solid pt-5 fa-location-arrow fa-2xl align-self-center m-5" style="height: 100px;width: 100px;border: 2px solid #23d4b8;border-radius: 50px;"></i>
                         <div class="card-body">
                             <h3 class="card-title mb-4" style="font-weight: 600;">Address</h3>
@@ -460,7 +509,7 @@
                     </div>
                     
                     <div class="col">
-                      <div class="card text-center">
+                      <div class="card text-center contact-card">
                         <i class="fa-regular fa-envelope pt-5 fa-2xl align-self-center m-5" style="height: 100px;width: 100px;border: 2px solid #23d4b8;border-radius: 50px;"></i>
                         <div class="card-body">
                             <h3 class="card-title mb-4" style="font-weight: 600;">Email</h3>
@@ -470,7 +519,7 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card text-center">
+                      <div class="card text-center contact-card">
                         <i class="fa-solid pt-5 fa-phone fa-2xl align-self-center m-5" style="height: 100px;width: 100px;border: 2px solid #23d4b8;border-radius: 50px;"></i>
                         <div class="card-body">
                             <h3 class="card-title mb-4" style="font-weight: 600;">Phone</h3>
@@ -508,7 +557,7 @@
                     
                 </div>
                 <div class="col-sm-6 col-12 align-items-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.2092903470075!2d31.339175075478867!3d30.030852974930433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c4000000001%3A0xc51a35e8b26c0b00!2sITWorx!5e0!3m2!1sen!2seg!4v1683137750179!5m2!1sen!2seg" width="400" height="400" style=" margin-top: 20px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.2092903470075!2d31.339175075478867!3d30.030852974930433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c4000000001%3A0xc51a35e8b26c0b00!2sITWorx!5e0!3m2!1sen!2seg!4v1683137750179!5m2!1sen!2seg" width="100%" height="100%" style=" margin-top: 20px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -516,5 +565,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
 </body>
 </html>

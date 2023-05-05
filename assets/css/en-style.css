@@ -4,8 +4,9 @@
     src: url(/assets/fonts/Roboto-Regular.ttf);
 }
 
+
 .row{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .d-flex{
@@ -150,3 +151,61 @@ button{
     border: 5px solid #23d4b8;
 }
 
+.carousel .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+ }
+
+ .feat-card,
+ .price-card,
+ .client-card{
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px #dbdbdb;
+ }
+
+ .contact-card{
+    border: 0;
+    box-shadow: 0px 0px 10px 3px #dbdbdb;
+ }
+
+ iframe{
+    box-shadow: 0px 0px 10px 3px #dbdbdb;
+ }
+
+ .portfolio-card{
+    box-shadow: 0px 0px 5px 2px #dbdbdb;
+    border: 0;
+    border-radius: 10px;
+}
+
+.exp-card{
+    box-shadow: 0px 0px 5px 2px #dbdbdb;
+    border: 0;
+    border-radius: 0;
+    height: 200px;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.exp-card h6, .exp-card span{
+    color: #23d4b8;
+    font-weight: bold;
+}
+
+.exp-card h3{
+    font-weight: bolder;
+}
+.exp-card .italic{
+    font-style: italic;
+}
+
+.feat-card span{
+    color: #23d4b8;
+}
+
+.feat-card h6{
+    font-weight: bold;
+    margin: 20px auto;
+}
