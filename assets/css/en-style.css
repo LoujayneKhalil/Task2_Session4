@@ -209,3 +209,7 @@ button{
     font-weight: bold;
     margin: 20px auto;
 }
+
+[lang="ar"]{
+    direction: rtl;
+}
